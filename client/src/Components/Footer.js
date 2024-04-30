@@ -6,8 +6,8 @@ const Footer = () => {
   const contributors = [
     { name: "Om Gore", github: "https://github.com/om9011" },
     { name: "Om Gujarathi", github: "https://github.com/Om-Gujarathi" },
-    { name: "Sanskar Gundecha", github: "https://github.com/sanskarg" },
-    { name: "Asawari Jadhav", github: "https://github.com/asawarijadhav" },
+    { name: "Sanskar Gundecha", github: "https://github.com/SanskarG83" },
+    { name: "Asawari Jadhav", github: "https://github.com/asawarijadhav23" },
   ];
 
   return (
