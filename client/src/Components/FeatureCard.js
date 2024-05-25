@@ -54,30 +54,31 @@ const OptionCard = (props) => {
     }
   };
 
-  OptionCard.propTypes = {
-    title: PropTypes.string.isRequired,
-  };
-
   return (
-    <div className="flex justify-center">
-      <div className="bg-white rounded-lg border-4 border-grey-100 overflow-hidden boxStyle w-full py-6 px-6">
-        <img
-          className="w-44 h-44 rounded-sm mx-auto my-6"
-          src={props.src}
-          alt="Play Button"
-        />
-        <div className="flex justify-between items-center">
-          <h1 className="text-2xl font-semibold text-center ">{props.title}</h1>
-          <button
-            onClick={handleDownload}
-            className="bg-primary text-white px-4 py-2 rounded-md"
-          >
-            Download
-          </button>
+    <div className="bg-white border-2 rounded-lg shadow-sm md:shadow-md p-4 md:mb-4">
+      <div className="flex justify-between items-center">
+        <div className="flex items-center">
+          <img
+            className="w-8 h-8 rounded-sm mr-3"
+            src={props.src}
+            alt="Option Icon"
+          />
+          <h2 className="text-sm md:text-lg font-semibold">{props.title}</h2>
         </div>
+        <button
+          onClick={handleDownload}
+          className="text-sm md:text-lg bg-primary hover:bg-text hover:text-black duration-200 text-white px-4 py-2 rounded-md"
+        >
+          Download
+        </button>
       </div>
     </div>
   );
+};
+
+OptionCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  src: PropTypes.string.isRequired,
 };
 
 export default OptionCard;
