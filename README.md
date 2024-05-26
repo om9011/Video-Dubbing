@@ -1,4 +1,9 @@
-# Video Dubbing Project
+<div align="center">
+  <h1> Dubwiz : A Multilingual Video Dubbing System </h1>
+  <img width="640" alt="fefe" src="https://github.com/Om-Gujarathi/SIH_2023/assets/98649066/3ad98653-093b-459c-bc26-312e2265f908">
+
+</div>
+<br>
 
 This project aims to create a video dubbing application that can translate spoken English in videos to various regional Indian languages. The backend of this project utilizes Python technologies such as PyTorch, Flask, and various machine learning libraries for speech recognition, translation, and audio processing. The frontend is built using ReactJS to provide an interactive user interface.
 
