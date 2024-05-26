@@ -2,6 +2,9 @@
 
 This project aims to create a video dubbing application that can translate spoken English in videos to various regional Indian languages. The backend of this project utilizes Python technologies such as PyTorch, Flask, and various machine learning libraries for speech recognition, translation, and audio processing. The frontend is built using ReactJS to provide an interactive user interface.
 
+## Overall Workflow of Project
+![SIH](https://github.com/om9011/Video-Dubbing/assets/114930828/d3757f69-0c5a-4722-a227-849f480c16bc)
+
 ## Project Structure
 
 ```
