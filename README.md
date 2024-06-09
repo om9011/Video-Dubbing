@@ -1,6 +1,6 @@
 <div align="center">
   <h1> Dubwiz : A Multilingual Video Dubbing System </h1>
-  <img width="640" alt="fefe" src="./assets/Snapshot.png">
+  <img width="640" alt="fefe" src="./assets/Images/Snapshot.png">
 
 </div>
 <br>
@@ -8,7 +8,7 @@
 This project aims to create a video dubbing application that can translate spoken English in videos to various regional Indian languages. The backend of this project utilizes Python technologies such as PyTorch, Flask, and various machine learning libraries for speech recognition, translation, and audio processing. The frontend is built using ReactJS to provide an interactive user interface.
 
 ## Overall Workflow of Project
-<img width="640" alt="fefe" src="./assets/flowchart.jpg">
+<img width="640" alt="fefe" src="./assets/Images/flowchart.jpg">
 
 
 ## Project Structure
