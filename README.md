@@ -8,10 +8,11 @@
 This project aims to create a video dubbing application that can translate spoken English in videos to various regional Indian languages. The backend of this project utilizes Python technologies such as PyTorch, Flask, and various machine learning libraries for speech recognition, translation, and audio processing. The frontend is built using ReactJS to provide an interactive user interface.
 
 ## Overall Workflow of Project
+<div align="center">
 <img width="640" alt="fefe" src="./assets/Images/flowchart.jpg">
+</div>
 
-
-## Project Structure
+### Project Structure
 
 ```
 project-root/
@@ -33,7 +34,7 @@ project-root/
     └── ...
 ```
 
-## Frontend (ReactJS)
+### Frontend (ReactJS)
 
 - The frontend of this project is developed using ReactJS. You'll need Node.js and npm (Node Package Manager) to install and manage the frontend dependencies. Ensure you have Node.js installed, then navigate to the \`frontend\` directory and run:
 
@@ -52,7 +53,7 @@ cd client
 npm start
 ```
 
-## Backend Requirements
+### Backend Requirements
 
 To run the backend of this project, you'll need the following Python libraries:
 
